@@ -1,0 +1,25 @@
+#sino {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+    & img {
+        height: 400px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (width <=600px) {
+    #sino {
+            display: flex;
+            justify-content: center;
+            margin-right: 50px;
+            margin-top:  350px;
+        img {
+            height: 150px;
+            width: 150px;
+        }
+    }
+}
